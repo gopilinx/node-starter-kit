@@ -28,5 +28,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['jshint']);
   grunt.registerTask('debug', ['run:node-inspector']);
+  grunt.registerTask('default', 'mochaTest');
 
 };
