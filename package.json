@@ -5,7 +5,8 @@
   "scripts": {
     "start": "nodemon app.js",
     "debug": "grunt debug --file=app.js",
-    "build-css": "grunt sass"
+    "build-css": "grunt sass",
+    "tests-unit": "grunt mochaTest"
   },
   "dependencies": {
     "body-parser": "^1.6.5",
@@ -16,10 +17,15 @@
     "multiparty": "^3.3.2"
   },
   "devDependencies": {
+    "chai": "^3.3.0",
     "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
     "grunt-contrib-sass": "^0.8.1",
     "grunt-githooks": "^0.3.1",
+    "grunt-mocha-test": "^0.12.7",
     "grunt-run": "^0.2.4",
-    "nodemon": "^1.2.1"
+    "mocha": "^2.3.3",
+    "nodemon": "^1.2.1",
+    "supertest": "^1.1.0"
   }
 }
