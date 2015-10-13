@@ -2,6 +2,7 @@ node-starter-kit
 =====
 
 A starter kit built using nodejs/expressjs that with a number of preconfigured grunt tasks and scripts to make your life easier.
+Also uses jenkins-mocha
 
 ---
 
